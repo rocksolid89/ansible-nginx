@@ -1,0 +1,32 @@
+---
+
+dependencies: []
+
+galaxy_info:
+  author: Vladimir Chernyakov
+  description: Nginx server for RHEL- and Debian- based Linux distributions.
+  company: "Thumbtack Technology, LLC"
+  license: "MIT"
+  min_ansible_version: 2.2
+
+  platforms:
+  #- name: Debian
+  #  versions:
+  #  - all
+  #  - etch
+  #  - jessie
+  #  - lenny
+  #  - sid
+  #  - squeeze
+  #  - stretch
+  #  - wheezy
+  #- name: EL
+  #  versions:
+  #  - all
+  #  - 5
+  #  - 6
+  #  - 7
+
+  galaxy_tags:
+    - web
+    - development

@@ -1,0 +1,14 @@
+---
+
+nginx_version: "{{ version | default('0.0.0') }}"
+
+nginx:
+
+  service:
+
+    #Name of managed service
+    name: "nginx"
+    #Version selected for installation
+    version: "{{ nginx_version }}"
+
+
